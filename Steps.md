@@ -15,3 +15,9 @@ yarn add @mikro-orm/cli @mikro-orm/core @mikro-orm/migrations
 yarn add @mikro-orm/postgresql pg
 ```
 Configure postgres and add user as postgres and password as postgres. add db lireddit and grant postgres all privileges.
+
+## 3. apollo-server-express-setup
+```bash
+yarn add express apollo-server-express graphql type-graphql@next
+yarn add -D @types/express 
+```
